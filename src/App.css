@@ -1,0 +1,23 @@
+.outer-container {
+  display: flex;
+  min-height:100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  transition: .3s ease-in;
+  background-color: rgb(233, 228, 228);
+
+
+
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+}

@@ -1,0 +1,39 @@
+.category{
+    padding: 5rem 2.4rem;
+}
+.category-title{
+    font-size: clamp(3.2rem, 8vw, 4.5rem);
+    font-weight: 500;
+}
+.category-card{
+    margin-top: 6rem;
+    max-width: 300px;
+    width: 100%;
+    padding: 3rem;
+    background-color: var(--white);
+    border-radius: 0 6rem 0 6rem;
+    box-shadow: 0 1rem 3rem -1rem #024f3e74;
+    
+}
+.card-image-wrapper{
+    width: 100%;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    border-radius: 0 6rem 0 0;
+}
+.card-text-container{
+    text-align: center;
+    margin-top: 2rem;
+}
+.card-title{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.category-card:hover .card-img{
+cursor: pointer;
+transform: scale(1.05);
+
+}
